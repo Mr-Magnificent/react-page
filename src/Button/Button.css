@@ -1,0 +1,15 @@
+.component-btn--container {
+    width: 100%;
+    margin: 5px 0 15px 0;
+}
+
+.component-btn {
+    border: 1px solid #3ebcb3;
+    border-radius: 3px;
+    color: #3ebcb3;
+    padding: 4px 10px 4px 10px;
+    font-family: 'Roboto';
+    background-color: inherit;
+    font-weight: 500;
+    cursor: pointer;
+}

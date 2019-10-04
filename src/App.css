@@ -7,5 +7,11 @@
 
 .App {
   display: inline-flex;
+  align-items: stretch;
   width: 100%
+}
+
+.app-content {
+  margin: 3px;
+  width: 100%;
 }

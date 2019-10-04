@@ -1,0 +1,36 @@
+.content {
+    background-color: #fdfdfd;
+    width: 100%;
+    min-height: 100%;
+    padding: 3% 10% 10% 10%;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#cont-heading {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cont-bulk {
+    background-color: #f9fbfb;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.cont-bulk--container {
+    width: 70%;
+    margin-left: 5px;
+}
+
+.cont-bulk--header {
+    color: #3fbcb3;
+    margin: 15px 0 15px 0;
+    font-size: 24px;
+}
+
+.cont-bulk--content {
+    color: #999999;
+}

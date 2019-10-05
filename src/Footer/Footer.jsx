@@ -8,10 +8,10 @@ export default class Footer extends React.Component {
     return (
       <div className='footer'>
         <div className='footer-icons'>
-          <FaTwitter size={30}/>
-          <FaLinkedinIn size={30}/>
-          <FaInstagram size={30}/>
-          <FaFacebookF size={30}/>
+          <a href='https://twitter.com' target='_blank'><FaTwitter size={30}/></a>
+          <a href='https://linkedin.com' target='_blank'><FaLinkedinIn size={30}/></a>
+          <a href='https://instagram.com' target='_blank'><FaInstagram size={30}/></a>
+          <a href='https://facebook.com' target='_blank'><FaFacebookF size={30}/></a>
         </div>
         <div className='footer-copyright'>
           <p>Copyright @ Company Pvt. Ltd.</p>

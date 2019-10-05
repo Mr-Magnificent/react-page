@@ -1,0 +1,34 @@
+.footer {
+    margin-top: 30px;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer>div {
+    color: #a6a6a6;
+}
+
+.footer-icons {
+    display: inline-flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.footer-copyright {
+    margin: 20px 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-copyright>p {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-links>p>a {
+    color: #a6a6a6;
+}

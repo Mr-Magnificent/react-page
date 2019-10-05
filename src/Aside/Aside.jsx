@@ -16,8 +16,8 @@ export default class Aside extends React.Component {
   changeSelection(event) {
     // event.stopPropagation();
     console.log(this.currentSelected)
-    this.currentSelected.style.color = 'initial';
-    this.currentSelected.style.borderRight = 'initial';
+    this.currentSelected.style.color = 'inherit';
+    this.currentSelected.style.borderRight = 'inherit';
     event.target.style.color = '#3ebcb3';
     event.target.style.borderRight = '5px solid #3ebcb3';
 

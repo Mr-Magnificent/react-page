@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Header/Header.jsx';
 import Aside from './Aside/Aside';
 import Content from './Content/Content.jsx';
+import Footer from './Footer/Footer.jsx';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         </div>
         <div className='app-content'>
           <Content />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </div>

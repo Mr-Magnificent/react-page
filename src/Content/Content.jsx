@@ -2,8 +2,17 @@ import React from 'react';
 
 import './Content.css';
 import Button from '../Button/Button.jsx';
+import Card from '../Card/Card.jsx';
+import data from '../mockData';
 
 export default class Content extends React.Component {
+  constructor(props) {
+    super(props);
+    this.solutionsList = data.map((item, indx) => {
+      return (<Card data={item} key={indx} />);
+    });
+  }
+
   render() {
     return (
       <div className='content'>
@@ -13,7 +22,7 @@ export default class Content extends React.Component {
         <div id='cont-bulk'>
           <div className='cont-bulk--container'>
             <p className='cont-bulk--header'>
-              Got bulk orders or almost similar orders ? lorem ispum dolor sit amet
+              Got bulk orders or almost similar orders ? Fill the order brief in an excel sheet
             </p>
             <p className='cont-bulk--content'>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -23,6 +32,9 @@ export default class Content extends React.Component {
             </p>
             <Button text={'Order via Excel Sheet'} />
           </div>
+        </div>
+        <div className='cont-list'>
+          {this.solutionsList}
         </div>
       </div>
     );

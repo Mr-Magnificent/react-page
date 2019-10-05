@@ -34,3 +34,11 @@
 .cont-bulk--content {
     color: #999999;
 }
+
+.cont-list {
+    margin-top: 50px;
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

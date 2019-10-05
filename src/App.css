@@ -1,8 +1,8 @@
 .app-header {
   height: 65px;
-  -webkit-box-shadow: -1px 6px 8px -3px rgba(209, 209, 209, 1);
-  -moz-box-shadow: -1px 6px 8px -3px rgba(209, 209, 209, 1);
-  box-shadow: -1px 6px 8px -3px rgba(209, 209, 209, 1);
+  -webkit-box-shadow: -1px 6px 8px -5px rgba(209, 209, 209, 1);
+  -moz-box-shadow: -1px 6px 8px -5px rgba(209, 209, 209, 1);
+  box-shadow: -1px 6px 8px -5px rgba(209, 209, 209, 1);
 }
 
 .App {
